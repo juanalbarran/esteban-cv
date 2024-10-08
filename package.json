@@ -1,0 +1,22 @@
+{
+  "name": "esteban-cv",
+  "version": "1.0.0",
+  "description": "A webpage with the CV of my friend esteban",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "express-handlebars": "^8.0.1"
+  }
+}
